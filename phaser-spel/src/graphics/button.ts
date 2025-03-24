@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import Text from './text.ts';
+import Text from './text';
 
 export default class Button extends Phaser.GameObjects.Container {
     private background: Phaser.GameObjects.Rectangle;

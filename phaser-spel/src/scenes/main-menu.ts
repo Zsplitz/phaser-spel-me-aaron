@@ -11,7 +11,7 @@ export default class MainMenuScene extends Phaser.Scene {
     }
 
     create(): void {
-        new Text(this, Number(this.game.config.width) / 2, 100, 'PHASER DASH', 60);
+        new Text(this, Number(this.game.config.width) / 2, 100, ':(', 60);
 
         new Button(this, 'Level 1', Number(this.game.config.width) / 2, 200, 160, 60, () => {
             this.scene.start(Level1Scene.KEY);
